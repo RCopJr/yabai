@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+# --- General Layout ---
+yabai -m config layout bsp
+
+# --- Gaps between windows ---
+yabai -m config window_gap          15
+
+# --- Padding around screen edges ---
+yabai -m config top_padding         15
+yabai -m config bottom_padding      15
+yabai -m config left_padding        15
+yabai -m config right_padding       15
+
+# --- Window border (only works with SIP partially disabled) ---
+# yabai -m config window_border on
+# yabai -m config window_border_width 2
+# yabai -m config active_window_border_color 0xff5c7e81
+# yabai -m config normal_window_border_color 0xff444444
+
+# --- Misc ---
+yabai -m config mouse_follows_focus on
+yabai -m config focus_follows_mouse off
+
